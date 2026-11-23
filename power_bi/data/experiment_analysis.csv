@@ -1,0 +1,3 @@
+experiment_id,variant,assigned_users,sdk_integrations,sdk_integration_rate_pct,first_api_requests,first_api_request_rate_pct,feature_adoptions,feature_adoption_rate_pct,retained_users_d7,d7_retention_rate_pct
+EXP_FEATURE_ONBOARDING_001,Treatment,3003,2253,75.02,2108,70.2,1951,64.97,1728,57.54
+EXP_FEATURE_ONBOARDING_001,Control,2997,1804,60.19,1694,56.52,1374,45.85,1530,51.05

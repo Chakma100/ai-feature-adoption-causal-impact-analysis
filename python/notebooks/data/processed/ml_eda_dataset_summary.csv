@@ -1,0 +1,7 @@
+table_name,rows,columns
+users,10000,7
+organizations,1500,6
+product_events,80000,8
+feature_usage,20041,6
+api_usage,50000,8
+subscriptions,1500,7

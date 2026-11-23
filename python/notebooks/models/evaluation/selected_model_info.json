@@ -1,0 +1,13 @@
+{
+    "project": "AI-Powered Feature Adoption Prediction & Causal Impact Analysis",
+    "selected_model": "Random Forest",
+    "decision_threshold": 0.55,
+    "selection_metric": "F1-score",
+    "validation_precision": 0.0713,
+    "validation_recall": 0.5874,
+    "validation_f1": 0.1272,
+    "validation_true_positives": 242,
+    "validation_false_positives": 3151,
+    "validation_false_negatives": 170,
+    "validation_business_cost": 4001
+}

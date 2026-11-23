@@ -1,0 +1,7 @@
+endpoint,total_api_records,total_users,total_requests,successful_requests,failed_requests,error_rate_percentage,success_rate_percentage,average_response_time_ms,maximum_response_time_ms,error_rate_rank,response_time_rank,api_health_status
+/api/v1/products,8353,5643,4161118,3952082,209036,5.02,94.98,506.25,999.61,1,6,Needs Improvement
+/api/v1/webhooks,8222,5636,4129971,3923105,206866,5.01,94.99,510.68,999.96,2,3,Needs Improvement
+/api/v1/auth,8315,5647,4231665,4019824,211841,5.01,94.99,508.95,999.76,2,5,Needs Improvement
+/api/v1/orders,8383,5628,4249354,4037237,212117,4.99,95.01,510.58,999.94,3,4,Healthy
+/api/v1/analytics,8298,5604,4211661,4001543,210118,4.99,95.01,513.88,999.97,3,1,Healthy
+/api/v1/users,8429,5690,4246916,4035640,211276,4.97,95.03,512.2,999.88,4,2,Healthy

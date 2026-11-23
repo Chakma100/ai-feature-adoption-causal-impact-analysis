@@ -1,0 +1,124 @@
+
+version: 2
+
+models:
+
+  - name: stg_organizations
+    description: "Cleaned organization information."
+    columns:
+      - name: organization_id
+        data_tests:
+          - unique
+          - not_null
+
+  - name: stg_users
+    description: "Cleaned user information."
+    columns:
+      - name: user_id
+        data_tests:
+          - unique
+          - not_null
+      - name: organization_id
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_organizations')
+                field: organization_id
+
+  - name: stg_subscriptions
+    description: "Cleaned subscription information."
+    columns:
+      - name: subscription_id
+        data_tests:
+          - unique
+          - not_null
+      - name: organization_id
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_organizations')
+                field: organization_id
+
+  - name: stg_product_events
+    description: "Cleaned product event information."
+    columns:
+      - name: event_id
+        data_tests:
+          - unique
+          - not_null
+      - name: user_id
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_users')
+                field: user_id
+
+  - name: stg_feature_usage
+    description: "Cleaned feature usage information."
+    columns:
+      - name: usage_id
+        data_tests:
+          - unique
+          - not_null
+      - name: user_id
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_users')
+                field: user_id
+
+  - name: stg_api_usage
+    description: "Cleaned API usage information."
+    columns:
+      - name: api_usage_id
+        data_tests:
+          - unique
+          - not_null
+      - name: user_id
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_users')
+                field: user_id
+
+  - name: stg_experiment_assignments
+    description: "Cleaned experiment assignment information."
+    columns:
+      - name: assignment_id
+        data_tests:
+          - unique
+          - not_null
+      - name: user_id
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_users')
+                field: user_id
+
+  - name: stg_experiment_outcomes
+    description: "Cleaned experiment outcome information."
+    columns:
+      - name: outcome_id
+        data_tests:
+          - unique
+          - not_null
+      - name: assignment_id
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_experiment_assignments')
+                field: assignment_id
+      - name: user_id
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_users')
+                field: user_id

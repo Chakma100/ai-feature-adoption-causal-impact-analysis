@@ -1,0 +1,6 @@
+Dataset,Rows,Columns,Missing Values,Duplicate Rows,Memory Usage (KB)
+Feature Adoption,7,10,0,0,1.12
+User Engagement,9999,12,75,0,1295.84
+Churn Analysis,3,12,0,0,0.49
+API Performance,6,13,0,0,0.89
+Experiment Analysis,2,11,0,0,0.37

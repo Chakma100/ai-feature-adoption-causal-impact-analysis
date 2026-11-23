@@ -1,0 +1,2 @@
+Model,Accuracy,Precision,Recall,F1_Score,ROC_AUC,PR_AUC
+Dummy Classifier,0.9934147805515342,0.0,0.0,0.0,0.5,0.0065852194484658025

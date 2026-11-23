@@ -1,0 +1,12 @@
+validation,result,status
+Missing Value Analysis,Only subscriptions.end_date contains missing values,Reviewed
+Full Row Duplicate Analysis,Zero duplicate records across 7 tables,Passed
+Primary Key Validation,Zero duplicate or NULL primary keys,Passed
+Data Type Validation,Data types inspected across all columns,Reviewed
+Categorical Value Validation,16 categorical columns inspected,Reviewed
+Numerical Outlier Analysis,No IQR outliers except expected subscription price differences,Reviewed
+API Usage Consistency,Zero inconsistent API records,Passed
+Feature Usage Date Validation,Zero invalid records,Passed
+Subscription Date Validation,Zero invalid records,Passed
+User Organization Date Validation,Zero invalid records,Passed
+API Request Date Validation,Zero invalid records,Passed

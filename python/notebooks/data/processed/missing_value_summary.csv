@@ -1,0 +1,8 @@
+table_name,total_rows,total_columns,total_missing_values,missing_percentage
+users,10000,7,0,0.0
+organizations,1500,6,0,0.0
+product_events,80000,8,0,0.0
+feature_usage,20041,6,0,0.0
+api_usage,50000,8,0,0.0
+subscriptions,1500,7,1043,9.93
+experiment_assignments,6000,5,0,0.0

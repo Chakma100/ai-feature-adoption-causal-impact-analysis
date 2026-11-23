@@ -1,0 +1,8 @@
+table_name,total_rows,duplicate_rows,duplicate_percentage
+users,10000,0,0.0
+organizations,1500,0,0.0
+product_events,80000,0,0.0
+feature_usage,20041,0,0.0
+api_usage,50000,0,0.0
+subscriptions,1500,0,0.0
+experiment_assignments,6000,0,0.0

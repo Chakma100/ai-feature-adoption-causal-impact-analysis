@@ -1,0 +1,13 @@
+dataset_id,project_id
+devflow_analytics,ecommerce-sales-nabin-2026
+devflow_raw,ecommerce-sales-nabin-2026
+devflow_staging,ecommerce-sales-nabin-2026
+devflow_staging_devflow_analytics,ecommerce-sales-nabin-2026
+github_activity_analytics,ecommerce-sales-nabin-2026
+olist_analytics,ecommerce-sales-nabin-2026
+olist_exports,ecommerce-sales-nabin-2026
+olist_raw,ecommerce-sales-nabin-2026
+olist_staging,ecommerce-sales-nabin-2026
+olist_staging_analytics,ecommerce-sales-nabin-2026
+olist_staging_intermediate,ecommerce-sales-nabin-2026
+olist_staging_staging,ecommerce-sales-nabin-2026

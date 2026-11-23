@@ -1,0 +1,8 @@
+table_name,primary_key,duplicate_keys,null_keys
+users,user_id,0,0
+organizations,organization_id,0,0
+product_events,event_id,0,0
+feature_usage,usage_id,0,0
+api_usage,api_usage_id,0,0
+subscriptions,subscription_id,0,0
+experiment_assignments,assignment_id,0,0

@@ -1,0 +1,10 @@
+table_name,column_name,pandas_dtype,sample_value
+users,signup_date,dbdate,2024-01-10
+organizations,created_date,dbdate,2025-07-11
+product_events,event_timestamp,dbdate,2024-01-31
+feature_usage,first_used_at,dbdate,2026-06-14
+feature_usage,last_used_at,dbdate,2026-07-07
+api_usage,request_timestamp,dbdate,2025-06-06
+subscriptions,start_date,dbdate,2024-09-13
+subscriptions,end_date,dbdate,2026-03-14
+experiment_assignments,assigned_at,dbdate,2024-03-31

@@ -1,0 +1,4 @@
+plan_type,total_subscriptions,total_organizations,churned_subscriptions,non_churned_subscriptions,churn_rate_percentage,non_churn_rate_percentage,total_monthly_subscription_value,average_monthly_price,first_subscription_date,latest_subscription_date,churn_risk_rank
+Pro,580,580,161,419,27.76,72.24,28420.000000000,49.000000000,2024-01-16,2026-05-23,3
+Free,609,609,185,424,30.38,69.62,0E-9,0E-9,2024-01-16,2026-06-02,2
+Enterprise,311,311,111,200,35.69,64.31,61889.000000000,199.000000000,2024-02-11,2026-05-15,1

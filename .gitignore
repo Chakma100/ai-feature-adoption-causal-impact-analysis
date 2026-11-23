@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Credentials
+.env
+credentials.json
+service-account-key.json
+
+# Temporary files
+*.log
+.DS_Store
+Thumbs.db
+# dbt generated files
+dbt/**/target/
+dbt/**/logs/

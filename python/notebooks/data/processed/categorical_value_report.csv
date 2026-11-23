@@ -1,0 +1,17 @@
+table_name,column_name,unique_count,unique_values
+users,country,8,"['Bangladesh', 'Canada', 'Germany', 'India', 'Japan', 'Singapore', 'UK', 'USA']"
+users,user_role,5,"['Admin', 'Data Analyst', 'Developer', 'Founder', 'Product Manager']"
+users,acquisition_channel,5,"['Direct', 'Organic', 'Paid Ads', 'Referral', 'Social Media']"
+organizations,industry,6,"['E-commerce', 'Education', 'Finance', 'Healthcare', 'Retail', 'Technology']"
+organizations,company_size,5,"['Enterprise', 'Large', 'Medium', 'Small', 'Startup']"
+organizations,country,8,"['Bangladesh', 'Canada', 'Germany', 'India', 'Japan', 'Singapore', 'UK', 'USA']"
+product_events,event_name,10,"['analytics_dashboard_viewed', 'api_key_created', 'documentation_viewed', 'first_api_request', 'login', 'monitoring_enabled', 'sdk_integrated', 'signup', 'subscription_upgraded', 'webhook_created']"
+product_events,platform,3,"['API', 'IDE', 'Web']"
+product_events,device_type,2,"['Desktop', 'Mobile']"
+product_events,event_properties,5,"['failure', 'feature_interaction', 'integration_action', 'page_view', 'success']"
+feature_usage,feature_name,7,"['API Authentication', 'API Documentation', 'API Monitoring', 'Analytics Dashboard', 'Rate Limiting', 'SDK Integration', 'Webhooks']"
+api_usage,endpoint,6,"['/api/v1/analytics', '/api/v1/auth', '/api/v1/orders', '/api/v1/products', '/api/v1/users', '/api/v1/webhooks']"
+subscriptions,plan_type,3,"['Enterprise', 'Free', 'Pro']"
+subscriptions,subscription_status,3,"['Active', 'Cancelled', 'Expired']"
+experiment_assignments,experiment_id,1,['EXP_FEATURE_ONBOARDING_001']
+experiment_assignments,variant,2,"['Control', 'Treatment']"

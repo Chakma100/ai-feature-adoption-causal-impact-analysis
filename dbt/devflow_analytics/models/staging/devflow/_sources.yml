@@ -1,0 +1,16 @@
+
+version: 2
+
+sources:
+  - name: devflow_raw
+    database: ecommerce-sales-nabin-2026
+    schema: devflow_raw
+    tables:
+      - name: organizations
+      - name: users
+      - name: subscriptions
+      - name: product_events
+      - name: feature_usage
+      - name: api_usage
+      - name: experiment_assignments
+      - name: experiment_outcomes

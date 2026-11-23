@@ -1,0 +1,6 @@
+Area,Business Question,Recommended Action,Priority
+Feature Adoption,Which features have low adoption?,Investigate usability and improve feature discovery.,High
+User Engagement,Why are some users less engaged?,Improve onboarding and provide targeted product guidance.,High
+Churn,Which users may be at risk of leaving?,Study usage patterns and subscription expiry behavior.,High
+API Performance,Which endpoints are slow or unreliable?,Investigate slow endpoints and reduce API errors.,Medium
+Experimentation,Does a product change improve outcomes?,Run user-level A/B tests with appropriate statistical analysis.,Medium
