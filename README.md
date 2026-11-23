@@ -76,15 +76,15 @@ Built an end-to-end Product Data Science workflow combining product analytics, m
 
 ### 1. Executive Overview
 
-![Executive Overview Dashboard](screenshots/executive-overview.jpg)
+![Executive Overview Dashboard](screenshots/01_executive_overview.png.png)
 
 ### 2. Product Usage & Engagement
 
-![Product Usage & Engagement Dashboard](screenshots/product-usage-engagement.jpg)
+![Product Usage & Engagement Dashboard](screenshots/02_product_usage_engagement.png.png)
 
 ### 3. Experiment & Causal Impact
 
-![Experiment & Causal Impact Dashboard](screenshots/experiment-causal-impact.jpg)
+![Experiment & Causal Impact Dashboard](screenshots/03_experiment_causal_impact.png.png)
 
 **Dashboard:** AI-Powered Feature Adoption & Causal Impact Dashboard  
 **Tool:** Power BI
